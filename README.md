@@ -1,10 +1,11 @@
 # P3TT - Python3 Timelapse Toolkit
+# IN HEAVY DEVELOPMENT
 
  Usage: test.py [OPTIONS] [FILES]...
 
   Uses sane values for ffmpeg and mencoder
 
-  > Example: timelapse.py -vb *.jpg
+  > Example: p3tt.py -vb *.jpg
 
 Options:
   -o, --output TEXT  file name to use for output video,
