@@ -1,7 +1,8 @@
 ### P3TT - Python3 Timelapse Toolkit
 ##### IN HEAVY DEVELOPMENT
 
-Requirements: >sudo apt-get install python3
+Prerequisites: 
+>sudo apt-get install python3
 
 
 Usage: test.py [OPTIONS] DIRECTORY
