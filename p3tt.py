@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import cv2 as cv
 import os
@@ -23,11 +23,13 @@ from pathlib import Path
 def main(directory, fps, verbose, brightness, g,  l,  ffmpeg,  mencoder, avconv, output):
     """ 
     P3TT - Python3 Timelapse Toolkit for the Raspberry Pi
-       
+
     Uses sane values for ffmpeg, mencoder or avconv to create a timelapse video
     using all images from the given directory
 
     Images must be correctly ordered and currently only supports jpg files
+
+    Can also calculate average brightness of photos and delete if too bright or dark
 
     Only run this command on a backup of images as the wrong set of arguments 
     \033[1;31;40mCAN DELETE FILES \033[1;0;40m
