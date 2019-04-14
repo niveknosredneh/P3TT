@@ -6,27 +6,6 @@ Can also calculate average brightness of photos and delete if too bright or dark
 
 Commands are easy to modify in the .py file.
 
-## OPTIONS
-
--o, --output TEXT  file name to use for output video, default='timelapse.mp4'
-
---ffmpeg           use ffmpeg
-
---mencoder         use mencoder
-
---avconv           use avconv
-
--f, --fps INTEGER  FPS of timelapse video, default='24'
-
--b, --brightness   Calculate average brightness of images [0-255]
-
--g INTEGER         Deletes files with brightness of greater than
-
--l INTEGER         Deletes files with brightness of less than
-
--v, --verbose      Display more output than necessary
-
-
 ## Examples
 
 ```
