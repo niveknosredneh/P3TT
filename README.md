@@ -6,6 +6,8 @@ Can also calculate average brightness of photos and delete if too bright or dark
 
 Commands are easy to modify in the .py file.
 
+note: 
+
 ## Examples
 
 ```
@@ -19,11 +21,20 @@ p3tt -l 30 ./
 
 ### Prerequisites
 
-Uses [Click](https://github.com/pallets/click) to help with help interface, [opencv](https://www.opencv.org) to open images and [Numpy](https://www.numpy.org) analyze them
+Uses [Click](https://github.com/pallets/click) to help with cli interface, [opencv](https://www.opencv.org) to open images and [Numpy](https://www.numpy.org) analyze them
 
+hypothetically works on any modern linux distribution
+so far tested only on rasbian and ubuntu 18.04
+
+mandatory dependencies:
 ```
 sudo apt-get install python3 python3-numpy python3-pip
 sudo pip3 install opencv-python click
+```
+
+optional dependencies:
+```
+sudo apt-get install mencoder avconv ffmpeg
 ```
 
 ### Installing
